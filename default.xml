@@ -105,6 +105,7 @@
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" revision="cm-14.0" remote="github" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="cm-14.0" remote="github" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="cm-14.0" remote="github" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" revision="cm-13.0" remote="github" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" revision="cm-14.0" remote="github" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-14.0" remote="github" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" revision="cm-14.0" remote="github" />
