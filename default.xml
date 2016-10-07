@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project name="platform_build" path="build" groups="pdk,tradefed" remote="rro" >
+  <project name="DominionOS/build" path="build" groups="pdk,tradefed" remote="github" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
