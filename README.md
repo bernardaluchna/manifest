@@ -1,10 +1,10 @@
-AOSP+OMS Nougat
+DominionOS
 ===========
 
 To initialize your local repository using the AOSP-OMS trees, use a 
 command like this:
 ````bash
-repo init -u git://github.com/AOSP-RRO/manifest.git -b nougat
+repo init -u git://github.com/DominionOS/manifest.git -b nougat
 ```
 Then to sync up:
 ````bash
