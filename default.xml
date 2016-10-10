@@ -42,7 +42,7 @@
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="dalvik" name="platform_dalvik" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="external/fuse" name="platform_external_fuse" remote="rro" />
