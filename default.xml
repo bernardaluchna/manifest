@@ -53,6 +53,7 @@
   <project name="DominionOS/manifest" path="manifest" remote="github" revision="nougat" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
   <project path="system/extras" name="platform_system_extras" remote="rro" />
+  <project path="system/extras/su" name="AospExtended/platform_system_extras_su" remote="github" revision="nougat" />
   <project path="system/media" name="platform_system_media" remote="rro" />
   <project path="packages/apps/Settings" name="DominionOS/packages_apps_Settings" groups="pdk-fs" remote="github" revision="nougat" />
   <project path="packages/apps/Extensions" name="DominionOS/packages_apps_Extensions" groups="pdk-fs" remote="github" revision="nougat" />
