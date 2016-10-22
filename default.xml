@@ -59,7 +59,8 @@
   <project path="packages/apps/Extensions" name="DominionOS/packages_apps_Extensions" groups="pdk-fs" remote="github" revision="nougat" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="rro" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-	
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+
 <!-- CyanogenMod -->
   
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0" remote="github" />
