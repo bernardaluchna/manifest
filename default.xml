@@ -19,7 +19,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" remote="github" revision="cm-14.0" />
+  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="rro" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -47,7 +47,7 @@
   <project path="dalvik" name="platform_dalvik" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="external/fuse" name="platform_external_fuse" remote="rro" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-14.0" />
+  <project name="platform_bionic" path="bionic" groups="pdk" remote="rro" />
   <project path="art" name="platform_art" groups="pdk" remote="rro" />
   <project name="DominionOS/vendor_aosp" path="vendor/aosp" remote="github" revision="nougat" />
   <project name="DominionOS/manifest" path="manifest" remote="github" revision="nougat" />
@@ -59,7 +59,6 @@
   <project path="packages/apps/Extensions" name="DominionOS/packages_apps_Extensions" groups="pdk-fs" remote="github" revision="nougat" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="rro" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
 	
 <!-- CyanogenMod -->
   
@@ -72,7 +71,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8996" />
-  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
+  <project path="hardware/qcom/bootctrl" name="CyanogenMod/android_hardware_qcom_bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-14.0" remote="github" />
   <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-14.0-caf" remote="github" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" revision="cm-14.0" remote="github" />
