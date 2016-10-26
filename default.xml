@@ -584,7 +584,7 @@
   <!-- masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 	
-	<project path="packages/apps/DUI" name="Zephyr-OS/platform_packages_apps_DUI" groups="pdk-fs" remote="github" revision="zephyr-N" />
+  <project path="packages/apps/DUI" name="Zephyr-OS/platform_packages_apps_DUI" groups="pdk-fs" remote="github" revision="zephyr-N" />
   <project path="external/DUtils" name="Zephyr-OS/platform_external_DUtils" groups="pdk-fs" remote="github" revision="zephyr-N" />
 	
 </manifest>
