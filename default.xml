@@ -10,6 +10,9 @@
   <remote  name="rro"
            fetch="https://github.com/AOSP-RRO"
 	   revision="nougat" />
+
+  <remote name = "bb"
+          fetch = "https://bitbucket.org/" />
 	   
   <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
